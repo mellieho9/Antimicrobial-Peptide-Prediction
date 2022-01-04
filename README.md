@@ -9,5 +9,3 @@ This project seeks to build a quantitative structure-activity relationship predi
 ## Approach
 In this project, I used Pfeature, a library that allows the computation of amino acids, which is essential for quantifying the molecular properties of peptides and thus providing the basis for this project's machine learning model. CD-HIT is also needed, as it allows the program to filter out redundancies in the peptide sequences and return a non-redundant subset of peptides for model-building. To install CD-HIT, I would have to install conda. For PFeature, I would have to install manually. 
 For the input data, I used two datasets from the Computational Biology and Bioinformatics lab's AxPEP, which consist of antimicrobial peptides (positive set) and non-antimicrobial peptides (negative set). Such datasets have been used by the researchers at the University of Macau to create a CNN Short Antimicrobial Peptides Prediction model. 
-Upon loading the datasets onto my Google Colaboratory notebook, I did the following:
-1. 
